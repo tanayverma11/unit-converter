@@ -1,0 +1,80 @@
+/* Body and background styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6e60a8 0%, #ed7f9a 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main container styling */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Header styling */
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Converter form styling */
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input and select field styling */
+input, select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Button styling */
+button {
+    padding: 12px;
+    background-color: #00d504;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #01af2f;
+}
+
+/* Styling for the "=" symbol */
+span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* Adding responsiveness */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
